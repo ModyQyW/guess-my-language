@@ -1,0 +1,19 @@
+{
+  "name": "guess-my-language",
+  "license": "MIT",
+  "author": {
+    "name": "ModyQyW",
+    "email": "wurui.dev@gmail.com"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy --minify",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "hono": "^4.7.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "wrangler": "^3.109.2"
+  }
+}
